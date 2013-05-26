@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{05E8E9AB-BBEF-4803-B99B-4CC197B5E466}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DaringDocs.Minimized</RootNamespace>
+    <AssemblyName>DaringDocs.Minimized</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Diminish\src\Main.cs" />
+    <Compile Include="Diminish\src\Setup.cs" />
+    <Compile Include="Diminish\src\7zipsdk\ICoder.cs" />
+    <Compile Include="Diminish\src\7zipsdk\Zipper.cs" />
+    <Compile Include="Diminish\src\7zipsdk\Common\CRC.cs" />
+    <Compile Include="Diminish\src\7zipsdk\Common\InBuffer.cs" />
+    <Compile Include="Diminish\src\7zipsdk\Common\OutBuffer.cs" />
+    <Compile Include="Diminish\src\7zipsdk\LZ\IMatchFinder.cs" />
+    <Compile Include="Diminish\src\7zipsdk\LZ\LzBinTree.cs" />
+    <Compile Include="Diminish\src\7zipsdk\LZ\LzInWindow.cs" />
+    <Compile Include="Diminish\src\7zipsdk\LZ\LzOutWindow.cs" />
+    <Compile Include="Diminish\src\7zipsdk\LZMA\LzmaBase.cs" />
+    <Compile Include="Diminish\src\7zipsdk\LZMA\LzmaDecoder.cs" />
+    <Compile Include="Diminish\src\7zipsdk\LZMA\LzmaEncoder.cs" />
+    <Compile Include="Diminish\src\7zipsdk\RangeCoder\RangeCoder.cs" />
+    <Compile Include="Diminish\src\7zipsdk\RangeCoder\RangeCoderBit.cs" />
+    <Compile Include="Diminish\src\7zipsdk\RangeCoder\RangeCoderBitTree.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="Diminish\refs\Readme.txt" />
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

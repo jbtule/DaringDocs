@@ -1,0 +1,53 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SupportLibrary1/X.cs">
+    <Files>
+      <File FileName="DaringDocs/Program.fs" Line="1" Column="1" />
+      <File FileName="Test/Test.fs" Line="9" Column="20" />
+      <File FileName="DocsLib/AssemblyInfo.fs" Line="9" Column="39" />
+      <File FileName="DaringDocs/AssemblyInfo.fs" Line="1" Column="21" />
+      <File FileName="DocsLib/Component1.fs" Line="14" Column="1" />
+      <File FileName="SupportLibrary1/X.cs" Line="7" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="DaringDocs" expanded="True" />
+          <Node name="DaringDocs.Minimized" expanded="True">
+            <Node name="Diminish" expanded="True">
+              <Node name="src" expanded="True">
+                <Node name="7zipsdk" expanded="True">
+                  <Node name="Common" expanded="True" />
+                  <Node name="LZ" expanded="True" />
+                  <Node name="LZMA" expanded="True" />
+                  <Node name="RangeCoder" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+          <Node name="DocsLib" expanded="True" />
+          <Node name="SupportLibrary1" expanded="True" />
+          <Node name="Test" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

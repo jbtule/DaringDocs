@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "DaringDocs", "DaringDocs\DaringDocs.fsproj", "{4EE1579E-F00B-40CF-87AC-D9F2E5692B94}"
+EndProject
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "DocsLib", "DocsLib\DocsLib.fsproj", "{D85D8FBE-2FC9-4005-9E87-77E8B629C8F8}"
+EndProject
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "Test", "Test\Test.fsproj", "{32D9ECAE-12A1-491F-8121-010D79897413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaringDocs.Minimized", "DaringDocs.Minimized\DaringDocs.Minimized.csproj", "{05E8E9AB-BBEF-4803-B99B-4CC197B5E466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportLibrary1", "SupportLibrary1\SupportLibrary1.csproj", "{0C4BF481-253E-4B28-9A3C-927A44D22F04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05E8E9AB-BBEF-4803-B99B-4CC197B5E466}.Debug|x86.ActiveCfg = Debug|x86
+		{05E8E9AB-BBEF-4803-B99B-4CC197B5E466}.Debug|x86.Build.0 = Debug|x86
+		{05E8E9AB-BBEF-4803-B99B-4CC197B5E466}.Release|x86.ActiveCfg = Release|x86
+		{05E8E9AB-BBEF-4803-B99B-4CC197B5E466}.Release|x86.Build.0 = Release|x86
+		{0C4BF481-253E-4B28-9A3C-927A44D22F04}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0C4BF481-253E-4B28-9A3C-927A44D22F04}.Debug|x86.Build.0 = Debug|Any CPU
+		{0C4BF481-253E-4B28-9A3C-927A44D22F04}.Release|x86.ActiveCfg = Release|Any CPU
+		{0C4BF481-253E-4B28-9A3C-927A44D22F04}.Release|x86.Build.0 = Release|Any CPU
+		{32D9ECAE-12A1-491F-8121-010D79897413}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{32D9ECAE-12A1-491F-8121-010D79897413}.Debug|x86.Build.0 = Debug|Any CPU
+		{32D9ECAE-12A1-491F-8121-010D79897413}.Release|x86.ActiveCfg = Release|Any CPU
+		{32D9ECAE-12A1-491F-8121-010D79897413}.Release|x86.Build.0 = Release|Any CPU
+		{4EE1579E-F00B-40CF-87AC-D9F2E5692B94}.Debug|x86.ActiveCfg = Debug|x86
+		{4EE1579E-F00B-40CF-87AC-D9F2E5692B94}.Debug|x86.Build.0 = Debug|x86
+		{4EE1579E-F00B-40CF-87AC-D9F2E5692B94}.Release|x86.ActiveCfg = Release|x86
+		{4EE1579E-F00B-40CF-87AC-D9F2E5692B94}.Release|x86.Build.0 = Release|x86
+		{D85D8FBE-2FC9-4005-9E87-77E8B629C8F8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D85D8FBE-2FC9-4005-9E87-77E8B629C8F8}.Debug|x86.Build.0 = Debug|Any CPU
+		{D85D8FBE-2FC9-4005-9E87-77E8B629C8F8}.Release|x86.ActiveCfg = Release|Any CPU
+		{D85D8FBE-2FC9-4005-9E87-77E8B629C8F8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = DaringDocs\DaringDocs.fsproj
+	EndGlobalSection
+EndGlobal
